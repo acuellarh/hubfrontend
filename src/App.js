@@ -2,10 +2,22 @@ import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
 import './App.css';
+import StyledForm from "./styles"
 
 function App() {
   return (
+
     <div className="App">
+
+    <StyledForm>
+        <form>
+          <input type="text" placeholder="Full name" />
+          <input type="text" placeholder="Email" />
+          <input type="text" placeholder="Password" />
+          <button>Sign In</button>
+        </form>
+      </StyledForm>
+
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
