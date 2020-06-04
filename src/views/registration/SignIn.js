@@ -1,15 +1,13 @@
 import React from "react";
-import StyledForm from "../../components/registatrion/StyledForm"
+import HomeHeader from "../../components/home/HomeHeader";
+import SignInForm from "../../components/registatrion/SignInForm";
+import HomeImage from "../../components/home/HomeImage";
 
 const SignIn = () => (
-  <StyledForm>
-    <form>
-      <input type="text" placeholder="Full name" />
-      <input type="text" placeholder="Email" />
-      <input type="text" placeholder="Password" />
-      <button>Sign In</button>
-    </form>
-  </StyledForm>
+  <HomeHeader
+    content = {<SignInForm/>}
+    image = {<HomeImage/>}
+  />
 );
 
 export default SignIn;
