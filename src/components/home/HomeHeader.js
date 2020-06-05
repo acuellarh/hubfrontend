@@ -54,13 +54,13 @@ function HomeHeader({content, image}) {
               </div>
               <div className="hidden md:block md:ml-10 md:pr-4">
                 <Link
-                  to="/login"
+                  to="/blog"
                   className="ml-8 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Blog
                 </Link>
                 <Link
-                  to="/login"
+                  to="/about"
                   className="ml-8 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
                 >
                   Nosotros
@@ -70,6 +70,12 @@ function HomeHeader({content, image}) {
                   className="ml-8 font-medium text-indigo-600 hover:text-indigo-900 focus:outline-none focus:text-indigo-700 transition duration-150 ease-in-out"
                 >
                   Iniciar sesión
+                </Link>
+                <Link
+                  to="/sign_in"
+                  className="ml-8 font-medium text-indigo-600 hover:text-indigo-900 focus:outline-none focus:text-indigo-700 transition duration-150 ease-in-out"
+                >
+                  Registrarse
                 </Link>
               </div>
             </nav>
@@ -130,13 +136,13 @@ function HomeHeader({content, image}) {
                   </div>
                   <div className="px-2 pt-2 pb-3">
                     <Link
-                      to="/login"
+                      to="/blog"
                       className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                     >
                       Blog
                     </Link>
                     <Link
-                      to="/login"
+                      to="/about"
                       className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                     >
                       Nosotros
@@ -148,6 +154,12 @@ function HomeHeader({content, image}) {
                       className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
                     >
                       Iniciar sesión
+                    </Link>
+                    <Link
+                      to="/sign_in"
+                      className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
+                    >
+                      Registrarse
                     </Link>
                   </div>
                 </div>
